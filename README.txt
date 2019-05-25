@@ -1,8 +1,3 @@
-Hi,
-
-I am attaching a POSTMAN collection for testing of the APIs with this project.
-Since the API is protected with JWT Auth so you have to extract the access token by hitting '/api/v1/token' and add it in header. You can declare a global variable in Postman with this header for the convinence I have increased the token live team to 59 minutes. 
-
 To start run the migrations
 python manage.py makemigrations
 python manage.py migrate
@@ -36,6 +31,3 @@ API:
 6.) '/api/user': POST
 	Endpoint is used for registering new user.
 	You need password,username,full_name,num to register a new user
-
-Please let me know if you need any more information.
-
