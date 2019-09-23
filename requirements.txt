@@ -1,4 +1,4 @@
-Django==2.1.7
+Django==2.1.11
 djangorestframework==3.9.1
 djangorestframework-simplejwt==4.3.0
 Faker==1.0.6
